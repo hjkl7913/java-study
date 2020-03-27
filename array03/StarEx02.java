@@ -41,14 +41,17 @@ public class StarEx02 {
 			} */
 		
 		
-		for (int j = 1; j < 4-i; j++) {
-			System.out.print("*");
+		for (int j = 0; j < 5-i; j++) {
+			System.out.print("-");
+		}
+		for (int j = 0; j < 5; j++) {
+			System.out.println("*");
 		}
 		System.out.println();
 	}
 	
 	public static void main(String[] args) {
-		for (int i = 0; i < 4; i++) {
+		for (int i = 1; i < 5; i++) {
 			printStarts(i);	
 		}
 
